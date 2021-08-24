@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-benchmark",
+  "version": "1.0.0",
+  "author": "Alex Dedyura",
+  "description": "JS benchmark. Libries uses: fs, sharp, bcrypt, crypto",
+  "main": "index.js",
+  "scripts": {
+    "full": "node index.js --type full",
+    "queries": "node index.js --type queries",
+    "loadtest": "node index.js --type loadtest",
+    "rebuild": "rm -rf node_modules && npm install"
+  },
+  "dependencies": {
+    "autocannon": "^7.4.0",
+    "bcrypt": "^5.0.1",
+    "benchmark": "^2.1.4",
+    "cli-spinners": "^2.6.0",
+    "disk-stat": "^1.0.4",
+    "express": "^4.17.1",
+    "hdr-histogram-js": "^2.0.1",
+    "native-hdr-histogram": "^1.0.0",
+    "ora": "^5.4.0",
+    "sharp": "^0.29.0",
+    "yargs": "^17.1.1"
+  }
+}
