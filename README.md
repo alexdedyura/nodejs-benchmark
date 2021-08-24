@@ -23,7 +23,7 @@ Supported architectures:
 - ARM (Apple Silicon, Raspberry Pi, Qualcomm and etc)
 - VLIW* (МЦСТ Эльбрус)
 
-Thanks a lot @powerdot for JS code base!
+Thanks a lot [powerdot](https://github.com/powerdot) for JS code base!
 
 ## How to install
 ### Install NodeJS from official website (Current or LTS)
@@ -53,6 +53,12 @@ npm run loadtest
 How fast is your server can response to queries?
 ```bash
 npm run queries
+```
+
+### Re-Install dependencies
+If you have problems installing nodejs dependencies or you have updated any of the packages, this command will help you
+```bash
+npm run rebuild
 ```
 
 
