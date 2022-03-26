@@ -3,7 +3,7 @@
 <p align="center">
   <img src="assets/favicon/nodejs.svg" alt="nodejs-logo" width="591px" height="159px"/>
   <br>
-  <i>My test allows you to find out the performance of your processor when using JavaScript. The program has many tests, described below. The time spent on the calculation is counted as the result of the test. The result is determined by the average of 10 attempts. Powered by NodeJS. Lower is better.</i>
+  <i>My test allows you to find out the performance of your processor when using JavaScript. The program has many tests, described below. The time spent on the calculation is counted as the result of the test. Powered by NodeJS. Lower is better.</i>
   <br>
 </p>
 
